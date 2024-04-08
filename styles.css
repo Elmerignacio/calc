@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif;
+    background-color: skyblue;
+}
+
+
+.calculator {
+    width: 500px;
+    margin-right: auto;
+    padding:40px;
+    padding-top: 60px ;
+    margin-top: 10%;
+    margin-left: 40%;
+    border-radius: 10px;
+    background-color: black;
+
+}
+
+.calculator input[type="text"] {
+    width: calc(92% - 20px);
+    padding: 30px;
+    font-size: 25px;
+    border: none;
+    background-color: rgba(255, 254, 254, 0.863);
+    border-radius: 5px;
+    outline: none;
+    text-align: end;
+    background-color: #e2e2e2;
+}
+
+.calculator .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 0;
+    background-color: black;
+    padding-top: 10px;
+    
+}
+
+.calculator button {
+    padding: 30px;
+    margin-top: 10%;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:rgb(226, 223, 223);
+}
+
+.calculator button:hover {
+    background: red;
+    color: white;
+}
+
+.calculator button:active {
+    background-color: #e2e2e2;
+}
+
+.calculator button.operator {
+    background-color: #e2e2e2;
+}
+
+.calculator button.operator:hover {
+    background: red;
+    color: white;
+}
+
+.calculator button.operators {
+    background-color: red;
+    color: #ffffff;
+    width: 425%;
+}
+
+.calculator button.C {
+    background-color: red;
+    color: #ffffff;
+}
+.calculator button.C:hover {
+    background: #e2e2e2 ;
+    color: black;
+}
+
+
+.calculator button.operators:hover {
+    background: #e2e2e2 ;
+    color: black;
+}
